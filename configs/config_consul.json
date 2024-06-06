@@ -1,0 +1,7 @@
+{
+    "is_register": false,
+    "consul_host": "host.docker.internal",
+    "consul_port": 8500,
+    "bind_service_host": "host.docker.internal",
+    "bind_service_port": 8080
+}

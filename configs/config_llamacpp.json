@@ -1,0 +1,18 @@
+{
+    "host": "0.0.0.0",
+    "port": 8080,
+    "models": [
+        {
+            "model": "E:/WorkSpace/LLMWorkSpace/Models/LLM/Qwen1.5-0.5B-QSplit-GGUF/qwen1_5-0_5b-qsplit-q5_k_m.gguf",
+            "model_alias": "Qwen1.5-0.5B-QSplit-GGUF",
+            "embedding": false,
+            "verbose": false
+        },
+        {
+            "model": "E:/WorkSpace/LLMWorkSpace/Models/Embedding/bge-large-zh-v1.5-gguf/bge-large-zh-v1.5-f32.gguf",
+            "model_alias": "bge-large-zh-v1.5-gguf",
+            "embedding": true,
+            "verbose": false
+        }
+    ]
+}

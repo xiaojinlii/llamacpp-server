@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  llamacpp-server:
+    build:
+      context: .
+      target: llamacpp-server
+    image: llamacpp-server:latest
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./configs:/app/configs
+      - ./models:/app/models

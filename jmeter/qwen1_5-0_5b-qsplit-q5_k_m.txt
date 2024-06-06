@@ -1,0 +1,57 @@
+
+## Qwen1.5-0.5B-QSplit
+参数：n_threads: 8，其他默认
+同时并发数：5	平均值：1320	最大值：2148
+同时并发数：7	平均值：1378	最大值：2230
+同时并发数：7	平均值：1768	最大值：3033
+每秒1个持续1分钟	平均值：464	最大值：503
+每秒2个持续1分钟	平均值：872	最大值：930
+每秒3个持续1分钟	平均值：1292	最大值：1373
+每秒4个持续1分钟	平均值：1729	最大值：1841
+每秒5个持续1分钟	平均值：2135	最大值：2287
+每秒6个持续1分钟	平均值：2551	最大值：2688
+每秒7个持续1分钟	平均值：2979	最大值：3118
+
+参数：全部默认,会使用1/2的cpu core
+同时并发数：8	平均值：1556	最大值：2613
+每秒7个持续1分钟	平均值：2940	最大值：3065
+每秒7个持续1分钟	平均值：2896	最大值：3026
+
+## bge-large-zh-v1.5
+参数：全部默认,会使用全部的cpu core
+同时并发数：10	平均值：1637	最大值：2398
+同时并发数：15	平均值：1920	最大值：3567 95%：3247
+同时并发数：20	平均值：1668	最大值：3077
+同时并发数：20	平均值：2219	最大值：4164
+每秒10个持续1分钟	平均值：1426	最大值：2252
+每秒10个持续1分钟	平均值：1836	最大值：5444 95%：2720
+每秒10个持续1分钟	平均值：1921	最大值：3448 95%：2945
+每秒12个持续1分钟	平均值：1792	最大值：3927
+每秒15个持续1分钟	平均值：2138	最大值：3656
+每秒20个持续1分钟	平均值：2802	最大值：5125
+
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    16
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 94
+Model name:            Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz
+Stepping:              3
+CPU MHz:               2494.140
+BogoMIPS:              4988.28
+Hypervisor vendor:     KVM
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              4096K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single rsb_ctxsw fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat
